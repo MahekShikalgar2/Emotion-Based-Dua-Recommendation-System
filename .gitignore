@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+
+# IDE files
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML models
+*.h5
+*.hdf5
+
+# Datasets
+*.csv
