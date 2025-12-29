@@ -7,7 +7,8 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import load_model
 
 # ----- PATHS -----
-project_root = r"C:\Users\Mahek\PycharmProjects\PythonProject1\EmotionRecognition"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = script_dir
 train_dir = os.path.join(project_root, "dataset", "train")
 model_dir = os.path.join(project_root, "model")
 os.makedirs(model_dir, exist_ok=True)
