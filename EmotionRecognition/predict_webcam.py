@@ -3,7 +3,9 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model_path = r"C:\Users\Mahek\PycharmProjects\PythonProject1\EmotionRecognition\model\emotion_model.h5"
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(script_dir, 'model', 'emotion_model.h5')
 model = load_model(model_path)
 
 # Emotion classes

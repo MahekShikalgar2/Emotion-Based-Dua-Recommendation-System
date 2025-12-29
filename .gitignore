@@ -1,16 +1,47 @@
 # Virtual Environment
 .venv/
+venv/
+env/
+ENV/
 
 # IDE files
 .idea/
+.vscode/
+*.swp
+*.swo
+*~
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
-# ML models
+# ML models (generated files)
 *.h5
 *.hdf5
+*.pkl
+*.joblib
 
-# Datasets
+# Datasets (large files)
 *.csv
+EmotionRecognition/dataset/
+EmotionRecognition/model/*.h5
+
+# User data
+emotion_history.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Audio files (user-added)
+audio/*.mp3
+audio/*.wav
+audio/*.ogg
+!audio/.gitkeep
