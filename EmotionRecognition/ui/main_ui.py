@@ -554,7 +554,7 @@ class EmotionDuaApp(QMainWindow):
                 "hindi_pronunciation": "अल्लाहुम्मा इग़्फिर ली व अज़्हिब ग़ैज़ा क़ल्बी",
                 "translation": "O Allah, forgive me and remove the rage from my heart.",
                 "meaning": "A short supplication to soften the heart and calm intense feelings.",
-                "reference": "Adapted from general prophetic supplications for anger.",
+                "reference": "A general supplication consistent with Islamic teachings.",
                 "audio": get_audio_path("angry.mp4"),
             },
             "sad": {
